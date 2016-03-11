@@ -1,0 +1,49 @@
+
+Gurobi 6.5.0 (linux64) logging started Wed Mar  9 14:55:39 2016
+
+
+Gurobi 6.5.0 (linux64) logging started Wed Mar  9 15:15:37 2016
+
+
+Gurobi Optimizer version 6.5.0 build v6.5.0rc1 (linux64)
+Copyright (c) 2015, Gurobi Optimization, Inc.
+
+
+ERROR 10012: Unknown file type for file 'LPExam1.py'
+
+
+Gurobi 6.5.0 (linux64) logging started Wed Mar  9 15:16:35 2016
+
+Optimize a model with 2 rows, 2 columns and 4 nonzeros
+Coefficient statistics:
+  Matrix range    [2e+00, 3e+00]
+  Objective range [3e+03, 4e+03]
+  Bounds range    [0e+00, 0e+00]
+  RHS range       [1e+02, 2e+02]
+Presolve time: 0.00s
+Presolved: 2 rows, 2 columns, 4 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    7.1000000e+33   3.200000e+30   7.100000e+03      0s
+       2    2.7750000e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 2 iterations and 0.00 seconds
+Optimal objective  2.775000000e+05
+
+Gurobi 6.5.0 (linux64) logging started Thu Mar 10 21:18:17 2016
+
+Optimize a model with 4 rows, 2 columns and 8 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 4e+00]
+  Objective range [3e+03, 4e+03]
+  Bounds range    [0e+00, 0e+00]
+  RHS range       [1e+02, 2e+02]
+Presolve time: 0.03s
+Presolved: 4 rows, 2 columns, 8 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    7.1000000e+33   6.500000e+30   7.100000e+03      0s
+       1    1.9500000e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 1 iterations and 0.04 seconds
+Optimal objective  1.950000000e+05
