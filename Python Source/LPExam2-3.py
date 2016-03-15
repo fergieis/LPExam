@@ -57,7 +57,7 @@ pl.plot(50,1,'o',c='r', ms=5)  #yes- its offset slightly
 pl.annotate('optimal point', xy=(52.5,5), xytext=(60,25),
             arrowprops=dict(facecolor='red', shrink=.05),)
 
-c_red = .3*2000 + .2*4000 + .5*5000
+c_red = .3*2000 + .2*4000 + .5*4000
 c_blue = .3*3000 + .2*4000 + .5*3000
 
 
@@ -72,16 +72,16 @@ red[1]= 100000/c_red
 blue[1]=0
 pl.plot(red, blue, '--', c='r', label="z=$100k")
 red[0]=0
-blue[0]= 195000/c_blue
-red[1]= 195000/c_red
+blue[0]= 170000/c_blue
+red[1]= 170000/c_red
 blue[1]=0
-pl.plot(red, blue, '-', c='r', label="z=$1950k(Optimal)")
+pl.plot(red, blue, '-', c='r', label="z=$170k(Optimal)")
 pl.ylim(0,100)
 pl.xlim(0,100)
 pl.legend(prop={'size':8})
 pl.title("Problem 2")
 pl.fill([0,50,0,0],[0,0,50,0],'black', alpha=.2)
-pl.annotate('feasible region', xy=(10,10))
+	pl.annotate('feasible region', xy=(10,10))
 pl.savefig('Problem2.png', bbox_inches='tight')
 pl.show()
 

@@ -5,7 +5,7 @@ red = m.addVar(vtype="c", name="Product Red")
 blue = m.addVar(vtype="c", name="Product Blue")
 
 #Expected Value of cost coefficients, E[c]
-c_red = .3*2000 + .2*4000 + .5*5000
+c_red = .3*2000 + .2*4000 + .5*4000
 c_blue = .3*3000 + .2*4000 + .5*3000
 
 #E[b]
@@ -36,18 +36,19 @@ for v in m.getVars():		#Solution printing "liberated" from
 #Optimize a model with 2 rows, 2 columns and 4 nonzeros
 #Coefficient statistics:
 #  Matrix range    [2e+00, 3e+00]
-#  Objective range [3e+03, 4e+03]
+#  Objective range [3e+03, 3e+03]
 #  Bounds range    [0e+00, 0e+00]
 #  RHS range       [1e+02, 2e+02]
 #Presolve time: 0.00s
 #Presolved: 2 rows, 2 columns, 4 nonzeros
 #
 #Iteration    Objective       Primal Inf.    Dual Inf.      Time
-#       0    7.1000000e+33   3.200000e+30   7.100000e+03      0s
-#       2    2.7750000e+05   0.000000e+00   0.000000e+00      0s
+#       0    6.6000000e+33   3.200000e+30   6.600000e+03      0s
+#       2    2.4580000e+05   0.000000e+00   0.000000e+00      0s
 #
 #Solved in 2 iterations and 0.00 seconds
-#Optimal objective  2.775000000e+05
-#Product Red 71.1538461538
-#Product Blue 0.0
+#Optimal objective  2.458000000e+05
+#Product Red 61.0
+#Product Blue 12.0
+
 

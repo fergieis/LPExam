@@ -36,10 +36,9 @@ pl.plot(red, blue, '-', c='m', label="B-limit")
 pl.xlabel("Product Red")
 pl.ylabel("Product Blue")
 
-pl.plot(71,.5,'o',c='r', ms=5)
-#real optimal is at (71.1538461538,0)
-# but doesn't plot as well
-pl.annotate('optimal point\n(71.15...,0)', xy=(71,5), xytext=(45,50),
+pl.plot(61,12,'o',c='r', ms=5)
+
+pl.annotate('optimal point\n(61,12)', xy=(61,12), xytext=(10,20),
             arrowprops=dict(facecolor='red', shrink=.05),)
 pl.legend()
 
@@ -72,14 +71,14 @@ pl.plot(red, blue, '-', c='m', label="B-limit")
 pl.xlabel("Product Red")
 pl.ylabel("Product Blue")
 
-pl.plot(71.1,0.2,'o',c='r', ms=5)
+pl.plot(61,12,'o',c='r', ms=5)
 pl.fill([0,71,62,0],[0,0,11,73],"black", alpha=.2)
-pl.annotate('optimal point\n(71.15...,0)', xy=(71.1,.5), xytext=(70,10),
+pl.annotate('optimal point\n(61,12)', xy=(61,12), xytext=(55,5),
             arrowprops=dict(facecolor='red', shrink=.05),)
 pl.annotate('feasible region', xy=(62,2.5))
 pl.legend()
 pl.title("Problem 1-Zoom")
-pl.xlim(60, 80)
+pl.xlim(50, 80)
 pl.ylim(0, 20)
 pl.savefig('Problem1b.png', bbox_inches='tight')
 

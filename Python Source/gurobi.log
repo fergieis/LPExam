@@ -21,3 +21,39 @@ Iteration    Objective       Primal Inf.    Dual Inf.      Time
 
 Solved in 0 iterations and 0.07 seconds
 Optimal objective  2.250000000e+00
+
+Gurobi 6.5.0 (linux64) logging started Mon Mar 14 09:57:32 2016
+
+Optimize a model with 2 rows, 2 columns and 4 nonzeros
+Coefficient statistics:
+  Matrix range    [2e+00, 3e+00]
+  Objective range [3e+03, 3e+03]
+  Bounds range    [0e+00, 0e+00]
+  RHS range       [1e+02, 2e+02]
+Presolve time: 0.00s
+Presolved: 2 rows, 2 columns, 4 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    6.6000000e+33   3.200000e+30   6.600000e+03      0s
+       2    2.4580000e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 2 iterations and 0.00 seconds
+Optimal objective  2.458000000e+05
+
+Gurobi 6.5.0 (linux64) logging started Mon Mar 14 10:05:58 2016
+
+Optimize a model with 4 rows, 2 columns and 8 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 4e+00]
+  Objective range [3e+03, 3e+03]
+  Bounds range    [0e+00, 0e+00]
+  RHS range       [1e+02, 2e+02]
+Presolve time: 0.01s
+Presolved: 4 rows, 2 columns, 8 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    6.6000000e+33   6.500000e+30   6.600000e+03      0s
+       1    1.7000000e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 1 iterations and 0.01 seconds
+Optimal objective  1.700000000e+05

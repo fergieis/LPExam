@@ -5,7 +5,7 @@ red = m.addVar(vtype="c", name="Product Red")
 blue = m.addVar(vtype="c", name="Product Blue")
 
 #Expected Value of cost coefficients, E[c]
-c_red = .3*2000 + .2*4000 + .5*5000
+c_red = .3*2000 + .2*4000 + .5*4000
 c_blue = .3*3000 + .2*4000 + .5*3000
 
 #E[b]
